@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RTACModule>
+  <POU>
+    <ExportSource>
+      <Schema>33</Schema>
+      <DeviceMOT>3530</DeviceMOT>
+    </ExportSource>
+    <Name>prg_CrossTask_MainAuto_Write</Name>
+    <POUKind>Program</POUKind>
+    <Content>
+      <Interface><![CDATA[PROGRAM prg_CrossTask_MainAuto_Write
+VAR
+	_mainData:MainAuto_t;
+	_mainAutoWrite : fb_CrossTaskWrite(ID:=2, sizeOfStruct := SIZEOF(MainAuto_t));
+	_mainAutoError : STRING(80);
+END_VAR
+]]></Interface>
+      <Implementation><![CDATA[//******************************************************************************
+// This program will assign the values from select variables in the main task
+// to a datastructure in a memory location accessable by the automation task
+//******************************************************************************
+_mainData.EN:=prg_mainTask.isEnabled;
+_mainData.aVar:=prg_mainTask.isReal;
+_mainData.bVar:=prg_mainTask.isInt;
+_mainData.cVar:=prg_mainTask.isString;
+
+_mainAutoWrite(pt_Struct:=ADR(_mainData), Error => _mainAutoError);]]></Implementation>
+    </Content>
+  </POU>
+</RTACModule>

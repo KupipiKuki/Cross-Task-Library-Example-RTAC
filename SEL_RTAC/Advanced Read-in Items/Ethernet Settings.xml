@@ -1,0 +1,16 @@
+<RTACModule>
+  <RTACBackupableObject>
+    <ObjectName>Ethernet Settings</ObjectName>
+    <ObjectText>
+      <schema version="schema_33">
+        <global_keep_alive time="10" interval="10" probes="5" />
+        <dns_info />
+        <ipv4_network_interfaces ipv4_address="192.168.1.2/24" network_interface_id="0" interface_enabled="true" ping="false" dhcp="false" web_access="true" odbc_access="true" name="Eth_01" device="eth0" mac="00:30:a7:02:e1:65" ethercat="false" ppp="false" primary_gw="false" dhcp_server="false" />
+        <ipv4_network_interfaces ipv4_address="192.168.2.2/24" network_interface_id="1" interface_enabled="true" ping="false" dhcp="false" web_access="true" odbc_access="true" name="Eth_02" device="eth1" mac="00:30:a7:02:e1:66" ethercat="false" ppp="false" primary_gw="false" dhcp_server="false" />
+        <ipv4_network_interfaces ipv4_address="172.29.131.1/24" network_interface_id="3" interface_enabled="true" ping="true" dhcp="false" web_access="true" odbc_access="true" name="USB_B1" device="usb0" mac="00:30:a7:02:e1:67" ethercat="false" ppp="false" primary_gw="false" dhcp_server="false" />
+        <ipv6_network_interfaces ip_address="fda5:26e8:fcff:1::1/64" network_interface_id="0" interface_enabled="false" web_access="true" odbc_access="true" primary_gw="false" />
+        <ipv6_network_interfaces ip_address="fd80:7a1:f32e:2::1/64" network_interface_id="1" interface_enabled="false" web_access="true" odbc_access="true" primary_gw="false" />
+      </schema>
+    </ObjectText>
+  </RTACBackupableObject>
+</RTACModule>

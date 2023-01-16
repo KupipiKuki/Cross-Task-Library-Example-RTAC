@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RTACModule>
+  <UserLibrary>
+    <ExportSource>
+      <Schema>33</Schema>
+      <DeviceMOT>3530</DeviceMOT>
+    </ExportSource>
+    <Name>CrossTaskData</Name>
+    <Company>SEL</Company>
+    <Title>CrossTaskData</Title>
+    <Version>3.5.1.0</Version>
+    <ParameterList>
+      <Parameter>
+        <Name>G_P_N_CROSSTASKIDS</Name>
+        <Value>10</Value>
+      </Parameter>
+    </ParameterList>
+  </UserLibrary>
+</RTACModule>

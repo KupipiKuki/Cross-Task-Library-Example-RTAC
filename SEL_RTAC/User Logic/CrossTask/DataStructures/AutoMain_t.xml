@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RTACModule>
+  <DataType>
+    <ExportSource>
+      <Schema>33</Schema>
+      <DeviceMOT>3530</DeviceMOT>
+    </ExportSource>
+    <Name>AutoMain_t</Name>
+    <Content><![CDATA[TYPE AutoMain_t :
+STRUCT
+	ENO : BOOL;
+	aVarOut : REAL;
+	bVarOut : INT;
+	cVarOut : STRING(16);
+END_STRUCT
+END_TYPE
+]]></Content>
+  </DataType>
+</RTACModule>

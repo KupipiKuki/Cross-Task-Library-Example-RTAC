@@ -1,0 +1,11 @@
+<RTACModule>
+  <RTACBackupableObject>
+    <ObjectName>Website Settings</ObjectName>
+    <ObjectText>
+      <schema version="schema_33">
+        <device_info host_name="SEL3530-4-0030A702E165" domain_name="" description="" policy="This system is for the use of authorized personnel only. Individuals using this device are subject to having their activities monitored and recorded. Anyone using this system expressly consents to such monitoring and is advised that if such monitoring reveals usage in excess of authority or criminal intent, then the evidence shall be provided to law enforcement officials." max_web_connections="20" web_user_timeout="5" out101_is_alarm_contact="true" ps_scale="1" home_page_hmi="true" hide_if_inactive_and_acknowledged="true" http_enabled="false" password_history_count="0" />
+        <stale_session_options stale_session_timeout="5" enable_stale_session="false" />
+      </schema>
+    </ObjectText>
+  </RTACBackupableObject>
+</RTACModule>

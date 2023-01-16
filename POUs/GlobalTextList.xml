@@ -1,0 +1,94 @@
+<RTACModule>
+  <LogicEngineObject>
+    <Name>GlobalTextList</Name>
+    <Type>TextList</Type>
+    <ArchivedContent><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<Single xml:space="preserve" Type="{63784cbb-9ba0-45e6-9d69-babf3f040511}" Method="IArchivable">
+  <List Name="TextList" Type="System.Collections.ArrayList">
+    <Single Type="{53da1be7-ad25-47c3-b0e8-e26286dad2e0}" Method="IArchivable">
+      <Single Name="TextID" Type="string">66</Single>
+      <Single Name="TextDefault" Type="string">%3.2f</Single>
+      <List Name="LanguageTexts" Type="System.Collections.ArrayList" />
+    </Single>
+    <Single Type="{53da1be7-ad25-47c3-b0e8-e26286dad2e0}" Method="IArchivable">
+      <Single Name="TextID" Type="string">600</Single>
+      <Single Name="TextDefault" Type="string">%d</Single>
+      <List Name="LanguageTexts" Type="System.Collections.ArrayList" />
+    </Single>
+    <Single Type="{53da1be7-ad25-47c3-b0e8-e26286dad2e0}" Method="IArchivable">
+      <Single Name="TextID" Type="string">42</Single>
+      <Single Name="TextDefault" Type="string">%f</Single>
+      <List Name="LanguageTexts" Type="System.Collections.ArrayList" />
+    </Single>
+    <Single Type="{53da1be7-ad25-47c3-b0e8-e26286dad2e0}" Method="IArchivable">
+      <Single Name="TextID" Type="string">829</Single>
+      <Single Name="TextDefault" Type="string">%s</Single>
+      <List Name="LanguageTexts" Type="System.Collections.ArrayList" />
+    </Single>
+    <Single Type="{53da1be7-ad25-47c3-b0e8-e26286dad2e0}" Method="IArchivable">
+      <Single Name="TextID" Type="string">865</Single>
+      <Single Name="TextDefault" Type="string">Automation Task Enabled</Single>
+      <List Name="LanguageTexts" Type="System.Collections.ArrayList" />
+    </Single>
+    <Single Type="{53da1be7-ad25-47c3-b0e8-e26286dad2e0}" Method="IArchivable">
+      <Single Name="TextID" Type="string">631</Single>
+      <Single Name="TextDefault" Type="string">Automation Task Int Result</Single>
+      <List Name="LanguageTexts" Type="System.Collections.ArrayList" />
+    </Single>
+    <Single Type="{53da1be7-ad25-47c3-b0e8-e26286dad2e0}" Method="IArchivable">
+      <Single Name="TextID" Type="string">139</Single>
+      <Single Name="TextDefault" Type="string">Automation Task Real Result</Single>
+      <List Name="LanguageTexts" Type="System.Collections.ArrayList" />
+    </Single>
+    <Single Type="{53da1be7-ad25-47c3-b0e8-e26286dad2e0}" Method="IArchivable">
+      <Single Name="TextID" Type="string">560</Single>
+      <Single Name="TextDefault" Type="string">Automation Task String</Single>
+      <List Name="LanguageTexts" Type="System.Collections.ArrayList" />
+    </Single>
+    <Single Type="{53da1be7-ad25-47c3-b0e8-e26286dad2e0}" Method="IArchivable">
+      <Single Name="TextID" Type="string">665</Single>
+      <Single Name="TextDefault" Type="string">Automation Task String Result</Single>
+      <List Name="LanguageTexts" Type="System.Collections.ArrayList" />
+    </Single>
+    <Single Type="{53da1be7-ad25-47c3-b0e8-e26286dad2e0}" Method="IArchivable">
+      <Single Name="TextID" Type="string">165</Single>
+      <Single Name="TextDefault" Type="string">Enable</Single>
+      <List Name="LanguageTexts" Type="System.Collections.ArrayList" />
+    </Single>
+    <Single Type="{53da1be7-ad25-47c3-b0e8-e26286dad2e0}" Method="IArchivable">
+      <Single Name="TextID" Type="string">757</Single>
+      <Single Name="TextDefault" Type="string">fafsa</Single>
+      <List Name="LanguageTexts" Type="System.Collections.ArrayList" />
+    </Single>
+    <Single Type="{53da1be7-ad25-47c3-b0e8-e26286dad2e0}" Method="IArchivable">
+      <Single Name="TextID" Type="string">319</Single>
+      <Single Name="TextDefault" Type="string">Main Task Enable</Single>
+      <List Name="LanguageTexts" Type="System.Collections.ArrayList" />
+    </Single>
+    <Single Type="{53da1be7-ad25-47c3-b0e8-e26286dad2e0}" Method="IArchivable">
+      <Single Name="TextID" Type="string">531</Single>
+      <Single Name="TextDefault" Type="string">Main Task Int</Single>
+      <List Name="LanguageTexts" Type="System.Collections.ArrayList" />
+    </Single>
+    <Single Type="{53da1be7-ad25-47c3-b0e8-e26286dad2e0}" Method="IArchivable">
+      <Single Name="TextID" Type="string">45</Single>
+      <Single Name="TextDefault" Type="string">Main Task Real</Single>
+      <List Name="LanguageTexts" Type="System.Collections.ArrayList" />
+    </Single>
+    <Single Type="{53da1be7-ad25-47c3-b0e8-e26286dad2e0}" Method="IArchivable">
+      <Single Name="TextID" Type="string">592</Single>
+      <Single Name="TextDefault" Type="string">Main Task String</Single>
+      <List Name="LanguageTexts" Type="System.Collections.ArrayList" />
+    </Single>
+  </List>
+  <List Name="Languages" Type="System.Collections.ArrayList" />
+  <Single Name="GuidInit" Type="System.Guid">ddbfa26c-7683-4f20-ae26-af23adaf17b4</Single>
+  <Single Name="GuidReInit" Type="System.Guid">2d4cd65c-f50c-488e-8908-aaef778054fc</Single>
+  <Single Name="GuidExitX" Type="System.Guid">ced4455b-6c52-4d87-8714-ebee0cf149ff</Single>
+</Single>]]></ArchivedContent>
+    <Metadata><![CDATA[<Single xml:space="preserve" Type="{81297157-7ec9-45ce-845e-84cab2b88ade}" Method="IArchivable">
+  <Dictionary Type="{2c41fa04-1834-41c1-816e-303c7aa2c05b}" Name="Properties" />
+  <Single Name="TypeGuid" Type="System.Guid">63784cbb-9ba0-45e6-9d69-babf3f040511</Single>
+</Single>]]></Metadata>
+  </LogicEngineObject>
+</RTACModule>

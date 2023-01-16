@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RTACModule>
+  <POU>
+    <ExportSource>
+      <Schema>33</Schema>
+      <DeviceMOT>3530</DeviceMOT>
+    </ExportSource>
+    <Name>prg_mainTask</Name>
+    <POUKind>Program</POUKind>
+    <Content>
+      <Interface><![CDATA[PROGRAM prg_mainTask
+VAR
+	//Variables sent to Automation Task
+	isEnabled : BOOL;
+	isReal : REAL;
+	isInt : INT;
+	isString : STRING(16);
+	//Variables received from Automation Task
+	outEnabled : BOOL;
+	outReal : REAL;
+	outInt : INT;
+	outString : STRING(16);
+END_VAR
+]]></Interface>
+      <Implementation><![CDATA[//Variables received from the Automation Read Program
+outEnabled:=prg_CrossTask_AutoMain_Read.outEnabled;
+outReal:=prg_CrossTask_AutoMain_Read.outReal;
+outInt:=prg_CrossTask_AutoMain_Read.outInt;
+outString:=prg_CrossTask_AutoMain_Read.outString;]]></Implementation>
+    </Content>
+  </POU>
+</RTACModule>

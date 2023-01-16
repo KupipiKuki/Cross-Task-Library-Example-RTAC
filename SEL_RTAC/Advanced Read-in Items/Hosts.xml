@@ -1,0 +1,8 @@
+<RTACModule>
+  <RTACBackupableObject>
+    <ObjectName>Hosts</ObjectName>
+    <ObjectText>
+      <schema version="schema_33" />
+    </ObjectText>
+  </RTACBackupableObject>
+</RTACModule>

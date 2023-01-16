@@ -1,0 +1,88 @@
+<RTACModule>
+  <NavigatorLayout Name="CROSSTASK_EXAMPLE">
+    <Items>
+      <Item Name="Extensions" />
+      <Item Name="SEL_RTAC">
+        <Items>
+          <Item Name="Devices" IsFolder="true" />
+          <Item Name="Tag Processor" />
+          <Item Name="Tags" />
+          <Item Name="System" IsFolder="true">
+            <Items>
+              <Item Name="Main Controller" />
+              <Item Name="System_Time_Control" />
+              <Item Name="SystemTags" />
+              <Item Name="Contact I/O" />
+              <Item Name="VisualizationManager" />
+              <Item Name="Ethernet Settings" />
+              <Item Name="Website Settings" />
+              <Item Name="Hosts" />
+            </Items>
+          </Item>
+          <Item Name="Access Points" IsFolder="true" />
+          <Item Name="Access Point Routers" IsFolder="true" />
+          <Item Name="User Logic" IsFolder="true">
+            <Items>
+              <Item Name="Extensions" IsFolder="true" />
+              <Item Name="Main Task Programs" IsFolder="true">
+                <Items>
+                  <Item Name="prg_mainTask" />
+                </Items>
+              </Item>
+              <Item Name="Automation Task Program" IsFolder="true">
+                <Items>
+                  <Item Name="prg_autoTask" />
+                </Items>
+              </Item>
+              <Item Name="CrossTask" IsFolder="true">
+                <Items>
+                  <Item Name="Library" IsFolder="true">
+                    <Items>
+                      <Item Name="CrossTaskData" />
+                    </Items>
+                  </Item>
+                  <Item Name="DataStructures" IsFolder="true">
+                    <Items>
+                      <Item Name="MainAuto_t" />
+                      <Item Name="AutoMain_t" />
+                    </Items>
+                  </Item>
+                  <Item Name="MainToAuto" IsFolder="true">
+                    <Items>
+                      <Item Name="Main Task Write" IsFolder="true">
+                        <Items>
+                          <Item Name="prg_CrossTask_MainAuto_Write" />
+                        </Items>
+                      </Item>
+                      <Item Name="Automation Task Read" IsFolder="true">
+                        <Items>
+                          <Item Name="prg_CrossTask_MainAuto_Read" />
+                        </Items>
+                      </Item>
+                    </Items>
+                  </Item>
+                  <Item Name="AutoToMain" IsFolder="true">
+                    <Items>
+                      <Item Name="Automation Task Write" IsFolder="true">
+                        <Items>
+                          <Item Name="prg_CrossTask_AutoMain_Write" />
+                        </Items>
+                      </Item>
+                      <Item Name="Main Task Read" IsFolder="true">
+                        <Items>
+                          <Item Name="prg_CrossTask_AutoMain_Read" />
+                        </Items>
+                      </Item>
+                    </Items>
+                  </Item>
+                </Items>
+              </Item>
+            </Items>
+          </Item>
+          <Item Name="Virtual Tag Lists" IsFolder="true" />
+          <Item Name="CrossTaskView" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigatorLayout>
+</RTACModule>

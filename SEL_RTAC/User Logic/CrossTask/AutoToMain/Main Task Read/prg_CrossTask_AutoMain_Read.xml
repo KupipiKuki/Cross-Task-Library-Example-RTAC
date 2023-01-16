@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RTACModule>
+  <POU>
+    <ExportSource>
+      <Schema>33</Schema>
+      <DeviceMOT>3530</DeviceMOT>
+    </ExportSource>
+    <Name>prg_CrossTask_AutoMain_Read</Name>
+    <POUKind>Program</POUKind>
+    <Content>
+      <Interface><![CDATA[PROGRAM prg_CrossTask_AutoMain_Read
+VAR
+	_autoMainData:AutoMain_t;
+	_autoMainRead : fb_CrossTaskRead(ID:=1);
+	_autoMainError : STRING(80);
+	
+	outEnabled : BOOL;
+	outReal : REAL;
+	outInt : INT;
+	outString : STRING(16);
+END_VAR
+]]></Interface>
+      <Implementation><![CDATA[//******************************************************************************
+// This program will access the valus stored in the data structure in a memory
+// location written to by the main task
+//******************************************************************************
+_autoMainRead(pt_Struct := ADR(_autoMainData), Error => _autoMainError);
+
+outEnabled:=_autoMainData.ENO;
+outReal:=_autoMainData.aVarOut;
+outInt:=_autoMainData.bVarOut;
+outString:=_autoMainData.cVarOut;]]></Implementation>
+    </Content>
+  </POU>
+</RTACModule>

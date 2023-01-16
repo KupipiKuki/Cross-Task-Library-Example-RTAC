@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RTACModule>
+  <POU>
+    <ExportSource>
+      <Schema>33</Schema>
+      <DeviceMOT>3530</DeviceMOT>
+    </ExportSource>
+    <Name>prg_autoTask</Name>
+    <POUKind>Program</POUKind>
+    <Content>
+      <Interface><![CDATA[PROGRAM prg_autoTask
+VAR
+	//Variables sent to Main Task
+	outEnabled : BOOL;
+	outReal : REAL;
+	outInt : INT;
+	outString : STRING(16);
+	//Variables Received from Main Task
+	isReal : REAL;
+END_VAR
+]]></Interface>
+      <Implementation><![CDATA[//Provides simple calculations to manipulate the data and return it to the main task
+outEnabled:=prg_CrossTask_MainAuto_Read.isEnabled;
+
+isReal:=prg_CrossTask_MainAuto_Read.isReal;
+IF isReal>100 THEN
+	outReal:=999.99;
+ELSE
+	outReal:=0.99;
+END_IF
+outInt:=prg_CrossTask_MainAuto_Read.isInt-1;
+IF LEN(prg_CrossTask_MainAuto_Read.isString)>15 THEN
+	outString:='FULL STRING';
+ELSE
+	outString:='PARTIAL STRING';
+END_IF
+
+
+]]></Implementation>
+    </Content>
+  </POU>
+</RTACModule>

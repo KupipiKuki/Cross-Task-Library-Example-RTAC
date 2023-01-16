@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RTACModule>
+  <MainController>
+    <ExportSource>
+      <Schema>33</Schema>
+      <DeviceMOT>3530</DeviceMOT>
+    </ExportSource>
+    <MainTask>
+      <CycleTime>16</CycleTime>
+      <WatchdogTime>15000</WatchdogTime>
+    </MainTask>
+    <Task>
+      <Name>Automation</Name>
+      <CycleTime>16</CycleTime>
+      <WatchdogTime>15000</WatchdogTime>
+      <POUs>
+        <Item>
+          <Enabled>true</Enabled>
+          <Name>prg_autoTask</Name>
+        </Item>
+        <Item>
+          <Enabled>true</Enabled>
+          <Name>prg_CrossTask_MainAuto_Read</Name>
+        </Item>
+        <Item>
+          <Enabled>true</Enabled>
+          <Name>prg_CrossTask_AutoMain_Write</Name>
+        </Item>
+      </POUs>
+    </Task>
+  </MainController>
+</RTACModule>
