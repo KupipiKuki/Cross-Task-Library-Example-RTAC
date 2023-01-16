@@ -1,5 +1,6 @@
 # Cross-Task-Library-Example-RTAC
 IEC-61131 SEL-RTAC Cross Task Library Example Project  
+This project was done quite some time ago to help me learn how to implement the corss task library for a project, hopefully it helps others.  
 
 This project demonstrates the usage of the Cross Task library, its purpose is to give examples on how the library can be used in accordance with my understanding.  
 
